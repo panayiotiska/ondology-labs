@@ -13,10 +13,50 @@
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="{{ "/css/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- Custom CYBERION font for the logo -->
+    <style>
+        @font-face {
+            font-family: 'CYBERION';
+            src: url('{{ site.baseurl }}/fonts/CYBERION.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        .navbar-default .navbar-brand {
+            font-family: 'CYBERION', cursive !important;
+            font-size: 24px; /* Slightly smaller to fit better */
+            letter-spacing: 1px;
+            line-height: 1.2;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .navbar-brand .brand-ondology {
+            display: block;
+        }
+        
+        .navbar-brand .brand-labs {
+            display: block;
+        }
+        
+        @media(max-width: 768px) {
+            .navbar-default .navbar-brand {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-size: 20px;
+            }
+        }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

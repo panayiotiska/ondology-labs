@@ -5,6 +5,8 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
+Local run: `bundle exec jekyll serve`
+
 ###Portfolio 
 
 Portfolio projects are in '/_posts'

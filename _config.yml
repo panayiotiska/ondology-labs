@@ -2,63 +2,41 @@ url: https://panayiotiska.github.io
 baseurl: /ondology-labs/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+title: Ondology Labs
+email: iraklis@ondologyenterprises.com
+description: "Ondology Labs is a blockchain forensics company that specializes in building custom software solutions for businesses of all sizes."
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Iraklis Anastasiou
   pic: 1
-  position: Lead Designer
+  position: Co-Founder and CEO
   social:
-    - title: twitter
+    - title: LinkedIn
       url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
+    - title: Twitter
       url: #
 
-- name: Larry Parker
+- name: Panayiotis Kattides
   pic: 2
-  position: Lead Marketer
+  position: Co-Founder and CTO
   social:
-    - title: twitter
+    - title: LinkedIn
       url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
+    - title: Twitter
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: Twitter
+    url: https://twitter.com/OndologyLabs
+  - title: LinkedIn
+    url: https://www.linkedin.com/company/ondology-labs/
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 28 October Ave
+  - line: Limassol, Cyprus
 
 # Build settings
 markdown: kramdown

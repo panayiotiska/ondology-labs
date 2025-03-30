@@ -35,3 +35,16 @@ Icon
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
+
+# Jekyll build files
+.bundle/
+.jekyll-cache/
+vendor/
+_site/
+.sass-cache/
+bundle
+cat
+
+# Make sure fonts directory is not ignored
+!fonts/
+!fonts/*
